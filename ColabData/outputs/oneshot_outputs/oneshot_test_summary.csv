@@ -1,0 +1,29 @@
+method,K,accuracy,balanced_acc,macro_f1
+"ProtoNet ORIGINAL (beta 0, no smoothing)",1,0.383 ± 0.051,0.392 ± 0.053,0.329 ± 0.047
+"ProtoNet ORIGINAL (beta 0, no smoothing)",2,0.427 ± 0.072,0.444 ± 0.058,0.369 ± 0.060
+"ProtoNet ORIGINAL (beta 0, no smoothing)",5,0.470 ± 0.094,0.490 ± 0.064,0.397 ± 0.080
+"ProtoNet ORIGINAL (beta 0, no smoothing)",10,0.494 ± 0.116,0.521 ± 0.068,0.414 ± 0.105
+"ProtoNet SELECTED (beta 0.25, window 11)",1,0.435 ± 0.054,0.384 ± 0.049,0.337 ± 0.048
+"ProtoNet SELECTED (beta 0.25, window 11)",2,0.497 ± 0.078,0.429 ± 0.055,0.382 ± 0.068
+"ProtoNet SELECTED (beta 0.25, window 11)",5,0.555 ± 0.101,0.459 ± 0.076,0.412 ± 0.094
+"ProtoNet SELECTED (beta 0.25, window 11)",10,0.587 ± 0.112,0.469 ± 0.090,0.427 ± 0.118
+"ProtoNet beta 0, window 11",1,0.397 ± 0.056,0.395 ± 0.050,0.333 ± 0.050
+"ProtoNet beta 0, window 11",2,0.447 ± 0.082,0.446 ± 0.055,0.377 ± 0.069
+"ProtoNet beta 0, window 11",5,0.494 ± 0.107,0.483 ± 0.076,0.406 ± 0.097
+"ProtoNet beta 0, window 11",10,0.517 ± 0.131,0.500 ± 0.086,0.420 ± 0.126
+"ProtoNet beta 0.25, window 1",1,0.419 ± 0.050,0.385 ± 0.050,0.336 ± 0.046
+"ProtoNet beta 0.25, window 1",2,0.473 ± 0.067,0.434 ± 0.054,0.379 ± 0.058
+"ProtoNet beta 0.25, window 1",5,0.524 ± 0.089,0.475 ± 0.063,0.408 ± 0.079
+"ProtoNet beta 0.25, window 1",10,0.557 ± 0.099,0.501 ± 0.066,0.429 ± 0.097
+random guess,1,0.200 ± 0.001,0.200 ± 0.001,0.170 ± 0.012
+random guess,2,0.200 ± 0.001,0.200 ± 0.003,0.168 ± 0.014
+random guess,5,0.200 ± 0.001,0.200 ± 0.003,0.163 ± 0.013
+random guess,10,0.200 ± 0.002,0.200 ± 0.003,0.162 ± 0.021
+raw features (no learning),1,0.361 ± 0.069,0.353 ± 0.045,0.291 ± 0.040
+raw features (no learning),2,0.382 ± 0.074,0.379 ± 0.057,0.313 ± 0.049
+raw features (no learning),5,0.423 ± 0.105,0.425 ± 0.064,0.345 ± 0.071
+raw features (no learning),10,0.450 ± 0.133,0.463 ± 0.068,0.376 ± 0.105
+untrained encoder,1,0.353 ± 0.062,0.340 ± 0.043,0.284 ± 0.043
+untrained encoder,2,0.384 ± 0.069,0.375 ± 0.055,0.315 ± 0.055
+untrained encoder,5,0.429 ± 0.099,0.423 ± 0.063,0.349 ± 0.077
+untrained encoder,10,0.456 ± 0.125,0.457 ± 0.061,0.378 ± 0.100

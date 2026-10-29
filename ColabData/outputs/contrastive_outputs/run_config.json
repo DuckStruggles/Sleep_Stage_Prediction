@@ -1,0 +1,80 @@
+{
+  "seed": 42,
+  "features": [
+    "acc_mean",
+    "acc_std",
+    "hr_mean_clipped_roll5_mean",
+    "hr_mean_clipped_roll5_std",
+    "acc_mean_roll5_mean",
+    "acc_mean_roll5_std",
+    "hr_delta",
+    "acc_delta",
+    "hr_mean_clipped_subj_z",
+    "acc_mean_subj_z",
+    "steps_roll5_sum",
+    "night_position"
+  ],
+  "labels": [
+    "Wake",
+    "N1",
+    "N2",
+    "N3",
+    "REM"
+  ],
+  "val_subjects": [
+    "1066528",
+    "4314139",
+    "5132496",
+    "781756",
+    "8173033"
+  ],
+  "test_subjects": [
+    "3997827",
+    "4018081",
+    "5498603",
+    "6220552",
+    "8258170",
+    "8692923",
+    "9618981"
+  ],
+  "scaler_mean": [
+    -0.00044956619918276505,
+    -0.010030405433499959,
+    0.08897351136773234,
+    0.020956556916790506,
+    -0.0008564566331594454,
+    -0.004776598110962784,
+    0.000419259987332511,
+    0.0003122546792703813,
+    2.875001606547426e-17,
+    -4.1362926339359744e-16,
+    0.009912266479990972,
+    0.002605601257672589
+  ],
+  "scaler_scale": [
+    0.9702275382058224,
+    0.9963197632167754,
+    0.9793016865334382,
+    1.051722726752901,
+    0.9624727192298519,
+    1.023045489105946,
+    1.037712491960293,
+    1.0295194373718202,
+    0.999995369465143,
+    1.0000019430050522,
+    1.0862543657733341,
+    1.0015013371879666
+  ],
+  "pretrain_epochs": 60,
+  "temperature": 0.1,
+  "noise_std": 0.05,
+  "batch_size": 256,
+  "embedding_dim": 64,
+  "class_weight_power": 0.5,
+  "select_metric": "accuracy",
+  "smoothing_windows": {
+    "Contrastive + linear probe": 21,
+    "Contrastive + fine-tune": 11,
+    "Supervised MLP baseline": 7
+  }
+}
